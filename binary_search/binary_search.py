@@ -1,6 +1,8 @@
 #https://leetcode.com/problems/binary-search/
 #https://neetcode.io/solutions/binary-search
 
+from collections import List
+
 class SolutionBinarySearch:
     
      def search(self, nums: List[int], target: int) -> int:
