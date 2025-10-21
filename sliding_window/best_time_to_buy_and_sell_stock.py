@@ -9,6 +9,6 @@ class SoluctionBestTimeToBuyAndSellStock:
             minIndexValue = prices.index(min(prices))
             if maxIndexValue > minIndexValue:
                 return prices[maxIndexValue] - prices[minIndexValue]
-            else
+            else:
                 del prices[minIndexValue]
         return 0
