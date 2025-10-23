@@ -17,6 +17,11 @@ class Solution:
             seen.add(num)
         return False
     
+    def contains_duplicate2(self, nums:List[int]) -> bool:
+        if len(set(nums)) == len(nums):
+            return False
+        return True
+    
     @staticmethod
     def TestContainsDuplicate(num1: int, num2: int, num3: int, num4: int):
         nums = [num1,num2,num3,num4]
